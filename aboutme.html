@@ -12,19 +12,23 @@
             }
 
             * {
-                margin: 0;
+                margin: auto;
                 padding: 0;
                 font-family: 'Lexend';
             }
             
             body {
-                background-image: url('bg.png');
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-
                 min-height: 100vh;
+                background-color: #f4f3ee;
+            }
+
+            .main {
+                max-width: 50%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
             }
 
             .rectangle-bar {
@@ -32,7 +36,7 @@
                 height: 60px;
                 padding: 5px;
 
-                background-color: #EEEEEE;
+                background-color: #e6e6e6;
                 border: none;
                 display: flex;
                 justify-content: center;
@@ -43,101 +47,471 @@
             #content {
                 width: 70%;
                 padding: 20px 30px 40px;
-                text-align: justify;
+                text-align: left;
                 margin: 20px auto;
                 border-radius: 15px;
             }
 
             .abilities {
                 margin-left: 50px;
-                margin-bottom: 10px;
             }
 
             p {
                 margin-left: 25px;
                 font-size: 18px;
-                color: #EEEEEE;
             }
 
-            h2 {
+            h2, h1 {
                 margin-top: 10px;
-                color: #D84040;
+                color: #463f3a;
             }
 
-            h3 {
+            /*h3 {
                 background-color: #8E1616;
                 color: #EEEEEE;
                 margin-left: 25px;
+                padding: 0px 10px;
+
+                margin-top: 10px;
+            }*/
+
+            .subtitle {
+                background-color: #34312d;
+                color: #f4f3ee;
+                margin-left: 20px;
+                padding: 5px;
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+
+                margin-top: 15px;
+                margin-bottom: 3px;
+                font-size: 17px;
+            }
+
+            .left {
+                width: 250%;
+
+                display: flex;
+                text-align: left;
+                justify-content: left;
+
+                font-weight: bold;
+            }
+
+            .right {
+                width: 100%;
+
+                display: flex;
+                justify-content: left;
+            }
+
+            .desc-row, .desc-row-v2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: row;
+
+                height: auto;
+                margin-bottom: 5px;
+                font-size: 17px;
+            }
+
+            .bullet {
+                width: 10%;
+
+                display: flex;
+                justify-content: right;
+            }
+
+            .desc-text {
+                width: 90%;
+
+                display: flex;
+                justify-content: left;
+                margin-left: 10px;
+            }
+
+            .desc-row-v2 {
+                margin-left: -20px;
             }
         </style>
     </head>
 
     <body>
-
-        <div class="rectangle-bar">
-            「 ✦  YELENA'S RESUME ✦ 」
-        </div>
-
-        <div id="content">
-            <div id="basicinfo">
-                <h2> NAME </h2>
-                    <p> Yelena Belova </p>
-
-                <h2> CODE NAME </h2>
-                    <p> Black Widow </p>
-
-                <h2> BIRTHDATE </h2> 
-                    <p> January 13, 1989 </p>
-
-                <h2> AFFILITAION </h2>
-                    <p> Red Room </p>
-                    <p> Black Widows </p>
+        <div class="main">
+            <div class="rectangle-bar">
+                「 ✦  HEPHZI'S RESUME ✦ 」
             </div>
 
-            <h2> ABILITIES </h2>
-                <h3> Master Martial Artist </h3>
-                    <p class="abilities"> 
-                        Belova is an extremely skilled and formidable hand-to-hand combatant and martial artist, 
-                        having been gone through the training of the Red Room since young age in order to become a Widow, making her one of 
-                        the most dangerous and best fighters on the planet. 
-                    </p>
+            <div id="content">
+                <div id="basicinfo">
+                    <h1> Hephzi-Bah G. Tolentino </h1>
+                    <div id="contact-det">
+                        <p> Guiguinto, Bulacan </p>
+                        <p> +63 967 012 4897 </p>
+                        <p> Primary Email: hephzibah.tolentino@gmail.com</p>
+                        <p> Secondary Email: hephzi-bah_tolentino@dlsu.edu.ph</p>
+                    </div>
+                </div>
 
-                <h3> Knife Mastery </h3>
-                    <p class="abilities"> 
-                        As a Black Widow, Belova is highly skilled at using a knife in combat, being able to use it to quickly 
-                        kill a former Widow and later use it in her fight against Romanoff. 
-                    </p>
+                <h2> EDUCATION </h2>
+                    <div class="subtitle">
+                        <div class="left">
+                            De La Salle University, Manila
+                        </div>
 
-                
-                <h3> Master Marksman </h3>
-                    <p class="abilities"> 
-                        Belova is highly skilled and well-trained in firearms, including pistols, sniper rifles and grenade launchers. 
-                        She could target the tower of the Russian gulag from a long distance.
-                    </p>
+                        <div class="right">
+                            (2023 - )
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Consistent First Dean’s List for 5 terms
+                        </div>
+                    </div>
 
-                
-                <h3> Master Acrobat </h3> 
-                    <p class="abilities"> 
-                        As a Black Widow, Belova is highly skilled in incorporating gymnastics and acrobatics into her fighting style as she battles 
-                        opponents. She has been very flexible since a young age, as she could already assume the upward bow position at the age of six.
-                    </p>
+                    <div class="subtitle">
+                        <div class="left">
+                            Centro Escolar Integrated School, Malolos
+                        </div>
 
-                
-                <h3> Master Spy </h3> 
-                    <p class="abilities"> 
-                        Having trained in the Red Room, Belova is highly skilled in infiltration and spycraft. She created a detailed, 
-                        extensive background story for her absent family.
-                    </p>
+                        <div class="right">
+                            (2021 - 2023)
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Graduated Top 3 of the batch
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Elected President of the class
+                        </div>
+                    </div>
 
-            <h2> WEAPONS </h2>
-                <p> ➼ Batons </p>
-                <p> ➼ Glock 26 </p>
-                <p> ➼ Heckler & Koch P30 </p>
-                <p> ➼ Accuracy International Arctic Warfare Magnum </p>
-                <p> ➼ Heckler & Koch XM25 </p>
+                    <div class="subtitle">
+                        <div class="left">
+                            St. Paul College of Bocaue
+                        </div>
 
-            <br> <br> <hr> <br> 
-            <p style="text-align: center; margin-left: -25px;"> <a href="index.html" style="color: #EEEEEE;"> BACK </a> </p>
+                        <div class="right">
+                            (2017 - 2021)
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Consistent Academic Excellence Awardee
+                        </div>
+                    </div>
+
+                <h2> PROJECTS & EXPERIENCES </h2>
+                    <div class="subtitle">
+                        <div class="left">
+                            Connectify - Forum Web App
+                        </div>
+
+                        <div class="right">
+                            2025
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            A Major Course Output requirement for the course Web Application Development
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully deployed a Twitter-like forum web application
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Contributed on both backend and frontend component of the web application
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Gained proficiency in MongoDB, handlebars, and JavaScript
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            Filipino Grammar Checker
+                        </div>
+
+                        <div class="right">
+                            2025
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Contributed to grammatical rules for LanguageTool
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Responsible for implementing the rule for correct use of hyphen in verbs and “ka-” prefix
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Gained proficiency in modifying .xml file and morfologik
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            La Salle Computer Society Junior Officer Trainee
+                        </div>
+
+                        <div class="right">
+                            2025
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Participated in LSCS events
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Part of the team that deployed Unlocked Perspectives – a Junior Officer Event
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            Electric Meter Management
+                        </div>
+
+                        <div class="right">
+                            2024
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            A Database App requirement for the course Information Management
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully completed a DB App designed to monitor and manage electric meter readings, customer accounts, and billing information
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Contributed to backend, frontend, and SQL component of the application
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            Hotel Reservation System
+                        </div>
+
+                        <div class="right">
+                            2024
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            A Major Course Output requirement for the course Object-Oriented Programming
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully completed and adhered to the specifications – hotel room selections, reservation, hotel room types, etc.
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Contributed on both backend and frontend component
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Gained proficiency in Java, Java Swing, and Unified Modeling Language
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Gained proficiency in object-oriented programming
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            Word Trivia Game
+                        </div>
+
+                        <div class="right">
+                            2024
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            A Machine Project for the course Programming with Structured Data Types
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully completed and adhered to the specifications
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Focused on shuffling algorithms, strings, and arrays
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left">
+                            Elevens - Solitaire Game
+                        </div>
+
+                        <div class="right">
+                            2023
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            A Machine Project for the course Logic Formulation and Introductory Programming
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully completed and adhered to the specifications 
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Gained proficiency in C programming
+                        </div>
+                    </div>
+
+                    <div class="subtitle">
+                        <div class="left" style="font-size: 14px;">
+                            Relationship Between Microsoft Word Proficiency in the Competency and Academic Performance of Grade 10 Students
+                        </div>
+
+                        <div class="right">
+                            2023
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Led a research group
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Successfully defended the research project
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Contributed to most parts of the paper
+                        </div>
+                    </div>
+
+                <h2> SPECIAL SKILLS </h2>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Skilled in Organization and Planning
+                        </div>
+                    </div>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Experienced in leading multiple projects and groups
+                        </div>
+                    </div>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Proficient in multiple programming languages - C, Java, Python, HTML, JavaScript
+                        </div>
+                    </div>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Proficient in database management - SQL, MongoDB
+                        </div>
+                    </div>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Proficient in Adobe Creative Cloud
+                        </div>
+                    </div>
+                    <div class="desc-row-v2">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Proficient in Microsoft Office and Google Cloud
+                        </div>
+                    </div>
+
+                <h2> SEMINARS AND TRAININGS ATTENDED </h2>
+                    <div class="subtitle">
+                        <div class="left">
+                            Robotics Workshop for Capstone
+                        </div>
+
+                        <div class="right">
+                            2023
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Oriented in using breadboard and Tinkercad
+                        </div>
+                    </div>
+                    <div class="desc-row">
+                        <div class="bullet">•</div>
+                        <div class="desc-text">
+                            Instilled basic logic and circuit design through Arduino components
+                        </div>
+                    </div>
+
+                <br> <br> <hr> <br> 
+                <p style="text-align: center; margin-left: -25px;"> <a href="index.html" style="color: #000000;"> BACK </a> </p>
+            </div>
         </div>
 
     </body>
