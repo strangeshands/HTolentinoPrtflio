@@ -1,1 +1,2 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+resources/mm-projects/*.mp4 filter=lfs diff=lfs merge=lfs -text
