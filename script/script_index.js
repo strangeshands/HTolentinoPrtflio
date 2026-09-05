@@ -44,7 +44,7 @@ const mmProjects = [
         description:
             "Recurring video editor and graphic designer for coursework throughout my academic journey — motion graphics, transitions, and visual effects for presentations and project outputs.",
         tags: ["Premiere Pro", "After Effects", "2019–Present"],
-        link: "portf-academic_edits.html",
+        link: "/pages/portf-academic_edits.html",
     },
 
     {
@@ -52,7 +52,7 @@ const mmProjects = [
         description:
             "Where it started: creating and publishing edits since age 13, building pacing, music sync, and visual-effects instincts through consistent personal practice.",
         tags: ["Since 2020", "Self-directed"],
-        link: "portf-personal_edits.html",
+        link: "/pages/portf-personal_edits.html",
     },
 ];
 
