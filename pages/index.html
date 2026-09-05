@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hephzi-Bah Tolentino — Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+
+    <body>
+        <!-- ================= HEADER / DIRECTORY ================= -->
+        <div id="header"></div>
+        <script src="/script/load_header.js"></script>
+
+        <!-- ================= HERO ================= -->
+        <header class="hero wrap">
+            <div class="hero-grid">
+                <div>
+                    <p class="eyebrow">
+                        <span class="rule"></span> Mandaluyong City, Philippines
+                        · Computer Science, De La Salle University
+                    </p>
+                    <h1>
+                        Building <em>software</em> by day,<br />
+                        cutting <em>video</em> by night.
+                    </h1>
+                    <p class="lede">
+                        I'm a 4th-year Computer Science student who moves
+                        comfortably between two crafts: writing and structuring
+                        code, and editing footage into something worth watching.
+                        This page is where both sides of that work live side by
+                        side — a running record I update as new projects wrap.
+                    </p>
+                    <div class="hero-links">
+                        <a href="mailto:hephzibah.tolentino@gmail.com"
+                            ><span class="tag">Email:</span
+                            >hephzibah.tolentino@gmail.com</a
+                        >
+                        <a
+                            href="https://github.com/strangeshands"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><span class="tag">GitHub:</span
+                            >github.com/strangeshands</a
+                        >
+                        <a href="#"
+                            ><span class="tag">LinkedIn:</span
+                            >www.linkedin.com/in/hephzi-tolentino-a68204366</a
+                        >
+                    </div>
+                </div>
+                <div>
+                    <div class="portrait-frame">
+                        <img src="/image/hep-pfp.jpg" />
+                    </div>
+                    <p class="portrait-caption">
+                        a.k.a. Hep — developer &amp; visual storyteller
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- ================= ABOUT / SKILLS ================= -->
+        <section id="about" class="wrap">
+            <div class="section-head">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="subsection-head">
+                <h2>Skills</h2>
+                <p class="note">
+                    Two skill sets, one working process —
+                    <b>organized, detail-checked, and finished on time</b>.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="skill-col dev">
+                    <h3><span class="dot"></span> Software Development</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript / Node.js</li>
+                        <li>C</li>
+                        <li>Kotlin</li>
+                        <li>SQL</li>
+                        <li>MongoDB</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>GitHub Actions / CI-CD</li>
+                        <li>Agile &amp; Scrum</li>
+                        <li>AWS (Cloud Practitioner)</li>
+                    </ul>
+                </div>
+                <div class="skill-col mm">
+                    <h3>
+                        <span class="dot"></span> Multimedia (Video and Motion
+                        Graphics)
+                    </h3>
+                    <ul>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Adobe After Effects</li>
+                        <li>3D &amp; Camera Animation</li>
+                        <li>Mocha Tracking</li>
+                        <li>Motion Graphics</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Figma</li>
+                        <li>Compositing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subsection-head">
+                <h2>Education</h2>
+                <p class="note">Consistent achiever student.</p>
+            </div>
+
+            <div class="edu-strip">
+                <div class="edu-item">
+                    <h4>De La Salle University</h4>
+                    <p class="years">2023 – Present</p>
+                    <p>
+                        BS Computer Science. First Dean's List for 9 consecutive
+                        terms.
+                    </p>
+                </div>
+                <div class="edu-item">
+                    <h4>Centro Escolar Integrated School</h4>
+                    <p class="years">2021 – 2023</p>
+                    <p>
+                        Graduated top 3 of the batch. Elected class president.
+                    </p>
+                </div>
+                <div class="edu-item">
+                    <h4>St. Paul College of Bocaue</h4>
+                    <p class="years">2017 – 2021</p>
+                    <p>Consistent Academic Excellence awardee.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= WORKS ================= -->
+        <section id="works" class="wrap">
+            <div class="section-head">
+                <h2>My Works</h2>
+                <p class="note">Made and Contributed.</p>
+            </div>
+
+            <div class="filter-pills" id="filterPills">
+                <button class="pill" id="dev_button" data-filter="dev">
+                    Development
+                </button>
+                <button class="pill" id="mm_button" data-filter="mm">
+                    Multimedia
+                </button>
+            </div>
+
+            <div class="works-grid" id="worksGrid">
+                <!-- Projects are loaded by portf.js -->
+            </div>
+        </section>
+
+        <script src="/script/script_index.js"></script>
+
+        <!-- ================= FOOTER / CONTACT ================= -->
+        <div id="footer"></div>
+        <script src="/script/load_footer.js"></script>
+    </body>
+</html>
