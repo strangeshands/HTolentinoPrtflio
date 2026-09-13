@@ -7,7 +7,7 @@ const edits = [
         description:
             "Made my own character, practice on animation/keyframing, and typography.",
         app: ["Adobe After Effects", "Adobe Illustrator"],
-        source: "/resources/mm-projects/animation.mp4",
+        source: "./resources/mm-projects/animation.mp4",
     },
 
     {
@@ -16,7 +16,7 @@ const edits = [
         description:
             "A short-form edit experimenting with transitions, velocity, and beat synchronization. This also includes 3D texts.",
         app: ["Adobe After Effects", "Adobe Premiere Pro"],
-        source: "/resources/mm-projects/introduction.mp4",
+        source: "./resources/mm-projects/introduction.mp4",
     },
 
     {
@@ -25,7 +25,7 @@ const edits = [
         description:
             "A personal edit that plays with velocity, to keep up with the \"TikTok Velocity Edits\" trends.",
         app: ["Adobe After Effects", "Adobe Premiere Pro"],
-        source: "/resources/mm-projects/butterfly.mp4",
+        source: "./resources/mm-projects/butterfly.mp4",
     },
 
     {

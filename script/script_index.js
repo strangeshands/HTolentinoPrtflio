@@ -3,7 +3,7 @@
 const devProjects = [
     {
         title: "JJ Apartments Property Management System",
-        image: "/resources/dev-images/connectify-image.png",
+        image: "./resources/dev-images/connectify-image.png",
         description:
             "Extended an existing property management platform for a real-estate client as part of a 7-person team, building frontend features in Next.js within a Kanban and CI/CD workflow.",
         tags: ["Next.js", "GitHub Actions", "Client project"],
@@ -12,7 +12,7 @@ const devProjects = [
 
     {
         title: "Unbound Case Management System",
-        image: "/resources/dev-images/connectify-image.png",
+        image: "./resources/dev-images/connectify-image.png",
         description:
             "Built backend features for a case-management system for real client Unbound, including data models and API endpoints for case records, using Agile sprint cycles.",
         tags: ["Express", "MongoDB", "Client project"],
@@ -21,7 +21,7 @@ const devProjects = [
 
     {
         title: "RSVP Invitation Website",
-        image: "/resources/dev-images/rsvp-image.png",
+        image: "./resources/dev-images/rsvp-image.png",
         description:
             "Independently designed and built a full-stack digital invitation platform with group-code-based guest lookup, from database schema to interface. This is deployed on Render.",
         tags: ["MongoDB", "Mongoose", "Solo project"],
@@ -30,7 +30,7 @@ const devProjects = [
 
     {
         title: "Connectify — Forum Web App",
-        image: "/resources/dev-images/connectify-image.png",
+        image: "./resources/dev-images/connectify-image.png",
         description:
             "A Twitter-style forum web application built and deployed as a major course requirement, covering both backend and frontend development.",
         tags: ["MongoDB", "Handlebars", "Coursework"],
@@ -44,7 +44,7 @@ const mmProjects = [
         description:
             "Recurring video editor and graphic designer for coursework throughout my academic journey — motion graphics, transitions, and visual effects for presentations and project outputs.",
         tags: ["Premiere Pro", "After Effects", "2019–Present"],
-        link: "/pages/portf-academic_edits.html",
+        link: "./pages/portf-academic_edits.html",
     },
 
     {
@@ -52,7 +52,7 @@ const mmProjects = [
         description:
             "Where it started: creating and publishing edits since age 13, building pacing, music sync, and visual-effects instincts through consistent personal practice.",
         tags: ["Since 2020", "Self-directed"],
-        link: "/pages/portf-personal_edits.html",
+        link: "./pages/portf-personal_edits.html",
     },
 ];
 

@@ -5,7 +5,7 @@ const edits = [
         title: "01 - About You",
         description: "Practice on typography and lyrics animation.",
         app: "Adobe After Effects",
-        video: "/resources/mm-projects/about%20you.mp4",
+        video: "./resources/mm-projects/about%20you.mp4",
     },
 
     {
@@ -13,7 +13,7 @@ const edits = [
         description:
             "A short-form edit experimenting with transitions, velocity, and beat synchronization. This also includes 3D texts.",
         app: "Adobe After Effects",
-        video: "/resources/mm-projects/ds_smfd_wm.mp4",
+        video: "./resources/mm-projects/ds_smfd_wm.mp4",
     },
 
     {
@@ -21,7 +21,7 @@ const edits = [
         description:
             "A personal edit that plays with velocity, to keep up with the \"Tiktok Velocity Edits\" trends.",
         app: "After Effects",
-        video: "/resources/mm-projects/johnny.mp4",
+        video: "./resources/mm-projects/johnny.mp4",
     },
 
     {
@@ -29,7 +29,7 @@ const edits = [
         description:
             "A short-form edit experimenting with transitions, different built-in effects on AE, and Sapphire Plug-in.",
         app: "After Effects",
-        video: "/resources/mm-projects/robin_iwnt_wm.mp4",
+        video: "./resources/mm-projects/robin_iwnt_wm.mp4",
     },
 ];
 
