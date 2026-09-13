@@ -60,8 +60,8 @@ const mmProjects = [
 
 async function loadPortfolioTemplates() {
     const [devResponse, mmResponse] = await Promise.all([
-        fetch("/templates/card-dev.html"),
-        fetch("/templates/card-mm.html"),
+        fetch("./templates/card-dev.html"),
+        fetch("./templates/card-mm.html"),
     ]);
 
     const devHTML = await devResponse.text();

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!footer) return;
 
     try {
-        const response = await fetch("/templates/footer.html");
+        const response = await fetch("./templates/footer.html");
 
         if (!response.ok) {
             throw new Error("Could not load footer.html");
